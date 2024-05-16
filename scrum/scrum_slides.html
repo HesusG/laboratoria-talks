@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Laboratoria - ETL: Explora, Transforma, Logra</title>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+      body {
+        font-family: "Open Sans", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .remark-slide-content {
+        font-family: "Open Sans", sans-serif;
+        padding-top: 20px;
+        padding-left: 60px;
+        padding-right: 20px;
+      }
+
+      .green-background {
+        background-color: #56f89a;
+        color: #ffffff;
+      }
+
+      .remark-slide-container {
+        background-color: #f7f4ec;
+        color: #333;
+      }
+
+      strong {
+        color: #fe5df4;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        font-weight: 400;
+      }
+
+      h1 {
+        color: #333 !important;
+      }
+
+      .remark-code,
+      .remark-inline-code {
+        font-family: "Open Sans", monospace;
+        background-color: #eaeaea;
+        color: #333;
+        padding: 2px 4px;
+        border-radius: 4px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .profile-pic {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+      }
+      .fa {
+        margin: 0 10px;
+      }
+      a:hover .fa {
+        color: #007bff;
+      }
+      .custom-link {
+        font-weight: bold;
+        color: #333 !important;
+        text-decoration: none;
+      }
+
+      .custom-link:hover {
+        color: #555 !important;
+      }
+
+      .image-right {
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .image-left {
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle,green-background
+
+#  Del Caos a la Claridad: Scrum como Guía para Proyectos de Datos
+### Trabajar de forma "agile" en la industria de datos
+
+---
+
+# Agenda
+
+#### 1. ¿Por qué la gestión de proyectos es crucial para el éxito en data science?
+#### 2. Introducción a los conceptos de Agile y Scrum: ¿Qué son y por qué son relevantes para proyectos de datos?
+#### 3. Los pilares de Scrum: Transparencia, Inspección y Adaptación.
+#### 4. Los roles clave en Scrum: Product Owner, Scrum Master y Equipo de Desarrollo 
+#### 5. El ciclo de vida de Scrum: Sprints, Planificación, y Retrospectivas.
+#### 7. Backlogs: ¿Qué son y cómo se utilizan para priorizar el trabajo?
+#### 8. Historias de usuario: El arte de definir requisitos de forma clara y concisa.
+
+---
+
+class: center, middle, green-background
+
+# Con qué puedo ayudar ? 
+### Un poco sobre mi.
+
+---
+class: center, middle, green-background
+
+# Hesus García: DevOps Engineer 
+
+<div style="text-align: center;">
+    <img src="https://github.com/HesusG/data-blog/blob/main/assets/Avatar.jpg?raw=true" alt="Foto de Hesus García" class="profile-pic">
+</div>
+
+### Analista de datos  🚀 con 5 años de experiencia en consultoría IT y análisis de datos. Ayudo a interpretar datos y elevar su calidad para mejorar la toma de decisiones. ✅
+<a href="TU_URL_DE_GITHUB" target="_blank" class="custom-link"><i class="fab fa-github"></i> GitHub</a>
+<a href="TU_URL_DE_LINKEDIN" target="_blank" class="custom-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+<a href="TU_SITIO_WEB_PERSONAL" target="_blank" class="custom-link"><i class="fas fa-globe"></i> Mi Sitio Web</a>
+
+---
+class: center, middle, green-background
+
+# ¿Por qué la gestión de proyectos es crucial para el éxito en data science?
+
+---
+
+* Los proyectos de data science son complejos y multidisciplinarios.
+* La falta de gestión puede llevar a:
+    * Retrasos
+    * Sobrecostos
+    * Resultados insatisfactorios
+    * Frustración del equipo
+
+---
+* **Agile:** Un enfoque iterativo y flexible para la gestión de proyectos.
+* **Scrum:** Un marco de trabajo Agile que se centra en la entrega de valor en ciclos cortos (sprints).
+
+**¿Por qué son relevantes para proyectos de datos?**
+
+* Permiten adaptarse a los cambios en los requisitos y datos.
+* Fomentan la colaboración y la comunicación entre los miembros del equipo.
+* Ayudan a entregar resultados de forma incremental y obtener retroalimentación temprana.
+
+
+---
+
+## Los proyectos y sus limitaciones
+
+Los proyectos se ven afectados por diversas limitaciones que dificultan su planificación, ejecución, administración y éxito:
+
+* Tiempo
+* Costo
+* Alcance
+* Calidad
+* Recursos
+* Capacidades organizativas
+* Otras limitaciones
+---
+## ¿Qué es Agile?
+
+Agile es la **capacidad de crear y responder al cambio**. Es una forma de lidiar y tener éxito en entornos inciertos y turbulentos.
+
+El término "Ágil" fue elegido por los autores del Manifiesto Ágil para representar la **adaptabilidad y la respuesta al cambio** que son fundamentales en este enfoque.
+
+**Fuente:** [https://www.agilealliance.org/agile101/agile-glossary/](https://www.agilealliance.org/agile101/agile-glossary/)
+
+---
+
+## El Manifiesto Ágil
+
+El Manifiesto Ágil surge el 17 de febrero de 2001, cuando diecisiete críticos del desarrollo de software se reunieron y acuñaron el término "metodología Ágil" para definir los métodos alternativos a las metodologías formales que estaban surgiendo.
+
+El Manifiesto Ágil se basa en 12 principios asociados a 4 pilares fundamentales.
+
+**Fuente:** [https://www.agilealliance.org/manifestodownload/](https://www.agilealliance.org/manifestodownload/)
+---
+### Los pilares de Scrum
+
+* **Transparencia:** Todos los aspectos del proyecto son visibles para todos los involucrados.
+* **Inspección:** El equipo revisa regularmente el progreso y se adapta según sea necesario.
+* **Adaptación:** Se realizan cambios en el proceso o en el producto para mejorar los resultados.
+
+---
+
+![principios_scrum](img/principios_scrum.png)
+
+---
+
+### Los 6 Valores Declaración de Interdependencia
+1. Aumentamos el retorno de inversión, al enfocarnos en el flujo continuo de valor
+2. Ofrecemos resultados fiables mediante la participación del cliente en las iteraciones frecuentes,
+donde también son responsables por el trabajo
+3. Asumimos que habrá incertidumbre y las superamos a través de iteraciones, anticipación y
+adaptación
+4. Damos rienda suelta a la creatividad y la innovación al reconocer que las personas son la fuente
+máxima de valor y creamos un entorno en el que puedan tener un impacto positivo
+5. Aumentamos el rendimiento a través de la rendición de cuentas por parte del grupo en cuestión de
+resultados y eficacia del equipo, responsabilidades que todos comparten
+6. Mejoramos la eficacia y la fiabilidad a través de estrategias situacionalmente específicas, procesos
+y prácticas
+---
+## ¿Qué es Agilidad?
+
+**Ágil (Agile):** Un enfoque de gestión de proyectos basado en la entrega de requisitos de forma iterativa e incremental a lo largo del ciclo de vida.
+
+**Desarrollo ágil:** Un término genérico específicamente para las metodologías de desarrollo de software iterativo. Los métodos populares incluyen Scrum, Lean, DSDM y eXtreme Programming (XP).
+
+---
+
+![agile](img/agileplanning.png)
+
+---
+### Los roles clave en Scrum
+
+* **Product Owner:** Define la visión del producto y prioriza el trabajo.
+* **Scrum Master:** Facilita el proceso y ayuda al equipo a superar obstáculos.
+* **Equipo de Desarrollo:** Realiza el trabajo necesario para entregar el producto.
+
+
+---
+
+### El ciclo de vida de Scrum
+
+* **Sprint:** Un ciclo de trabajo de duración fija (generalmente de 1 a 4 semanas).
+* **Planificación del Sprint:** El equipo define el trabajo a realizar durante el sprint.
+* **Revisión del Sprint:** El equipo presenta los resultados del sprint a las partes interesadas.
+* **Retrospectiva del Sprint:** El equipo reflexiona sobre el sprint y busca formas de mejorar.
+
+---
+
+![Alt text](img/eventos.png)
+
+---
+
+![Alt text](img/eventos2.png)
+
+
+---
+![Alt text](img/sprintplanning.png)
+
+---
+
+
+## Definición de Scrum 
+Scrum requiere un Scrum Master para fomentar un entorno donde:
+
+* Un **Product Owner** ordena el trabajo de un problema complejo en un **Product Backlog**.
+* El **Scrum Team** convierte una selección del trabajo en un **Incremento de valor** durante un **Sprint**.
+* El **Scrum Team** y sus interesados **inspeccionan los resultados** y se **adaptan** para el próximo Sprint.
+* **Repetir**
+
+---
+
+## Product Owner
+
+* El **Product Owner (PO)** representa la voz del cliente y es el encargado de maximizar el valor del producto.
+* Un PO siempre debe mantener la visión de las partes interesadas.
+* Él/Ella debe entender y apoyar las necesidades e intereses de todos los Stakeholders.
+* Regula y mantiene la planeación de la liberación (Release Planning).
+
+---
+
+## Responsabilidades de un Product Owner
+
+* **Maximizar el valor del producto**
+* **Gestión efectiva del Product Backlog**
+    * El Product Owner puede delegar, pero sigue siendo el responsable.
+    * La gestión efectiva del Product Backlog incluye:
+        * Desarrollar y comunicar explícitamente el Objetivo del Producto.
+        * Crear y comunicar claramente los elementos del Product Backlog.
+        * Ordenar los elementos del Product Backlog (Decidir).
+        * Asegurarse de que el Product Backlog sea transparente, visible y se entienda.
+
+
+---
+
+## El Scrum Master
+
+El Scrum Master es responsable de:
+
+* Establecer Scrum como se define en la Guía de Scrum.
+* Ayudar a todos a comprender la teoría y la práctica de Scrum, tanto dentro del Scrum Team como de la organización.
+* Lograr la efectividad del Scrum Team.
+* Apoyar al Scrum Team en la mejora de sus prácticas, dentro del marco de trabajo de Scrum.
+
+---
+
+
+### Backlogs: Priorizando el trabajo
+
+* **Product Backlog:** Una lista priorizada de todas las características y funcionalidades deseadas para el producto.
+* **Sprint Backlog:** Una lista de tareas que el equipo se compromete a completar durante el sprint.
+
+**¿Cómo se utilizan para priorizar el trabajo?**
+
+* El Product Owner ordena el Product Backlog según el valor de negocio.
+* El equipo selecciona las tareas del Product Backlog para el Sprint Backlog en función de su capacidad.
+
+---
+
+## Sprint Backlog vs. Product Backlog: ¿Cuál es la diferencia?
+
+**Product Backlog**
+
+* **¿Qué es?** Una lista ordenada de todo lo que podría ser necesario en el producto.
+* **¿Quién lo gestiona?** El Product Owner.
+* **¿Cómo se organiza?** Por prioridad, valor para el cliente y esfuerzo estimado.
+* **¿Para qué sirve?** Guía el desarrollo del producto a largo plazo.
+
+**Sprint Backlog**
+
+
+* **¿Qué es?** Un subconjunto del Product Backlog. Contiene los elementos que el equipo se compromete a completar en el Sprint actual.
+* **¿Quién lo gestiona?** El Development Team.
+* **¿Cómo se organiza?** En tareas más pequeñas y accionables.
+* **¿Para qué sirve?** Guía el trabajo diario del equipo durante el Sprint.
+
+**Recuerda:**
+
+* El Product Backlog es una visión a largo plazo, mientras que el Sprint Backlog se centra en el corto plazo.
+* Ambos backlogs son dinámicos y evolucionan a medida que el proyecto avanza.
+* La colaboración entre el Product Owner y el Development Team es esencial para mantener ambos backlogs actualizados y relevantes.
+
+---
+
+
+### Historias de usuario: Definiendo requisitos
+
+* Una historia de usuario es una descripción breve y simple de una característica o funcionalidad desde la perspectiva del usuario.
+* Formato:
+    * "Como [usuario], quiero [funcionalidad] para que [beneficio]".
+* Ejemplo:
+    * "Como científico de datos, quiero una herramienta de visualización de datos para que pueda identificar patrones fácilmente".
+
+---
+
+class: center, middle, green-background
+
+# Preguntas
+
+
+---
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
