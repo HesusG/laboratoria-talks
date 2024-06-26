@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Laboratoria - Big Query: Explora, Transforma, Logra</title>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+      body {
+        font-family: "Open Sans", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .remark-slide-content {
+        font-family: "Open Sans", sans-serif;
+        padding-top: 20px;
+        padding-left: 60px;
+        padding-right: 20px;
+      }
+
+      .green-background {
+        background-color: #56f89a;
+        color: #ffffff;
+      }
+
+      .remark-slide-container {
+        background-color: #f7f4ec;
+        color: #333;
+      }
+
+      strong {
+        color: #fe5df4;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        font-weight: 400;
+      }
+
+      h1 {
+        color: #333 !important;
+      }
+
+      .remark-code,
+      .remark-inline-code {
+        font-family: "Open Sans", monospace;
+        background-color: #eaeaea;
+        color: #333;
+        padding: 2px 4px;
+        border-radius: 4px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .profile-pic {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+      }
+      .fa {
+        margin: 0 10px;
+      }
+      a:hover .fa {
+        color: #007bff;
+      }
+      .custom-link {
+        font-weight: bold;
+        color: #333 !important;
+        text-decoration: none;
+      }
+
+      .custom-link:hover {
+        color: #555 !important;
+      }
+
+      .image-right {
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .image-left {
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+      ---
+      class: center, middle, green-background
+
+      # ¿Qué es la Correlación?
+      
+      La correlación mide la relación y dependencia entre dos variables. Es una herramienta estadística que ayuda a determinar cómo una variable puede predecir el comportamiento de otra.
+      
+      ---
+      
+      # Correlación Lineal
+      
+      La correlación lineal se refiere a la relación directa entre dos variables en la que una variable cambia de manera proporcional a la otra. Por ejemplo, si una variable aumenta y la otra también lo hace, decimos que tienen una correlación positiva.
+      
+      ---
+      
+      # Coeficiente de Correlación de Pearson
+      
+      El coeficiente de correlación de Pearson es una medida que cuantifica la relación lineal entre dos variables numéricas. Se denota por la letra 'r'.
+      
+      ---
+      
+      # Interpretación del Coeficiente de Pearson
+      
+      El valor de 'r' varía entre -1 y 1:
+      - **1**: Correlación positiva perfecta
+      - **0**: Sin correlación
+      - **-1**: Correlación negativa perfecta
+      
+      ---
+      
+      # Ejemplos de Correlación
+      
+      - **r = 1**: A medida que X aumenta, Y también aumenta de manera perfecta.
+      - **r = 0**: No hay relación lineal entre X e Y.
+      - **r = -1**: A medida que X aumenta, Y disminuye de manera perfecta.
+      
+      ---
+      
+      # Errores Comunes en el Análisis de Correlación
+      
+      - **Confundir causalidad con correlación**: Solo porque dos variables estén correlacionadas no significa que una cause la otra.
+      - **Incluir variables categóricas como numéricas**: Transformar categorías a números arbitrarios puede inducir a errores. Por ejemplo, asignar 1 a 'rojo', 2 a 'verde' y 3 a 'azul' no implica una relación lineal entre los colores.
+      
+      ---
+      
+      # Reflexión sobre el Análisis de Correlación
+      
+      - **Comprensión de Datos**: Asegúrate de entender bien tus variables antes de realizar análisis de correlación.
+      - **Validación de Resultados**: Siempre verifica si las correlaciones encontradas tienen sentido en el contexto de tu análisis.
+      
+      
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script>
+      var slideshow = remark.create({});
+    </script>
+  </body>
+</html>
