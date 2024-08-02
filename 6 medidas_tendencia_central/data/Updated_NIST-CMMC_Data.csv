@@ -1,0 +1,172 @@
+date,Categories,Subcategories,KPI,KPI_value,KPI_weight,Score,Category_Maturity_Level,Subcategorie_Value,Categorie_Value
+01/07/24,Access Control (AC),Identification & Authentication,Access Enforcement,2.484858624,3.886982878,9.658602926,2,12.01781257,24.4071882
+01/07/24,Access Control (AC),Identification & Authentication,Account Management ,2.099335632,1.043888225,2.191471746,2,12.01781257,24.4071882
+01/07/24,Access Control (AC),Network Security,Data Flow Enforcement Access Control Lists (ACLs),2.565019406,6.475195854,16.60900302,2,11.11526857,24.4071882
+01/07/24,Access Control (AC),Human Resources Security,Separation of Duties,1.725718104,1.725622192,2.977937458,2,26.55410998,24.4071882
+01/07/24,Access Control (AC),Identification & Authentication,Least Privilege ,3.503907455,10.09932518,35.38710079,2,12.01781257,24.4071882
+01/07/24,Access Control (AC),Identification & Authentication,Non-Privileged Access for Non-Security Functions ,2.483449354,2.284648762,5.673809491,2,12.01781257,24.4071882
+01/07/24,Access Control (AC),Identification & Authentication,Prohibit Non-Privileged Users from Executing Privileged Functions ,3.26420614,0.609494218,1.989514769,2,12.01781257,24.4071882
+01/07/24,Access Control (AC),Identification & Authentication,Account Lockout ,2.817202295,5.50445554,15.50716478,2,12.01781257,24.4071882
+01/07/24,Access Control (AC),Secure Engineering & Architecture ,System Use Notification (Logon Banner),1.336119263,6.713899383,8.970570296,2,39.31436289,24.4071882
+01/07/24,Access Control (AC),Identification & Authentication,Session Lock ,1.842633859,2.108085803,3.884430279,2,12.01781257,24.4071882
+01/07/24,Access Control (AC),Identification & Authentication,Session Termination ,4,2.619274767,10.47709907,2,12.01781257,24.4071882
+01/07/24,Access Control (AC),Network Security,Automated Monitoring & Control ,1.748316251,5.435859837,9.503602092,2,11.11526857,24.4071882
+01/07/24,Access Control (AC),Network Security,Protection of Confidentiality / Integrity Using Encryption,2.413646608,3.448468717,8.323384822,2,11.11526857,24.4071882
+01/07/24,Access Control (AC),Network Security,Managed Access Control Points,1.854862455,0.161616884,0.299777091,2,11.11526857,24.4071882
+01/07/24,Access Control (AC),Network Security,Remote Privileged Commands & Sensitive Data Access,2.242448517,0.144117808,0.323176764,2,11.11526857,24.4071882
+01/07/24,Access Control (AC),Network Security,Wireless Networking ,2.851458419,7.746637546,22.08921485,2,11.11526857,24.4071882
+01/07/24,Access Control (AC),Network Security,Authentication & Encryption,4,4.909626647,19.63850659,2,11.11526857,24.4071882
+01/07/24,Access Control (AC),Mobile Device Management,Access Control For Mobile Devices,2.439842739,40.43513933,98.6553811,2,118.0833436,24.4071882
+01/07/24,Access Control (AC),Mobile Device Management,Full Device & Container-Based Encryption ,2.308597798,59.56486067,137.5113062,2,118.0833436,24.4071882
+01/07/24,Access Control (AC),Data Classification & Handling ,Use of External Information Systems ,2.656809999,1.679058198,4.460938609,2,20.32453322,24.4071882
+01/07/24,Access Control (AC),Data Classification & Handling ,Portable Storage Devices,1.833393006,9.908554941,18.16627533,2,20.32453322,24.4071882
+01/07/24,Access Control (AC),Data Classification & Handling ,Publicly Accessible Content,2.711205302,12.61749844,34.20862868,2,20.32453322,24.4071882
+01/07/24,Awareness & Training (AT),Security Awareness & Training ,Security & Privacy Awareness ,3.05445557,46.15544583,140.9797586,1,56.08182136,74.86686743
+01/07/24,Awareness & Training (AT),Security Awareness & Training ,Role-Based Security & Privacy Training ,2.68967131,10.45003927,28.10717081,1,56.08182136,74.86686743
+01/07/24,Awareness & Training (AT),Threat Management,Insider Threat Awareness,1.124369596,100,112.4369596,1,112.4369596,74.86686743
+01/07/24,Audit & Accountability (AU),Continuous Monitoring,Event Log Retention,2.420036084,2.653537782,6.421657183,1,16.98984036,16.98984036
+01/07/24,Audit & Accountability (AU),Continuous Monitoring,Content of Audit Records ,1,10.43568388,10.43568388,1,16.98984036,16.98984036
+01/07/24,Audit & Accountability (AU),Continuous Monitoring,Reviews & Updates ,2.483697979,6.427920193,15.96501239,1,16.98984036,16.98984036
+01/07/24,Audit & Accountability (AU),Continuous Monitoring,Response To Event Log Processing Failures,2.279150045,12.05812623,27.48227894,1,16.98984036,16.98984036
+01/07/24,Audit & Accountability (AU),Continuous Monitoring,Correlate Monitoring Information,3.6663506,8.055896902,29.53574244,1,16.98984036,16.98984036
+01/07/24,Audit & Accountability (AU),Continuous Monitoring,Monitoring Reporting ,3.487971097,5.383633714,18.77795879,1,16.98984036,16.98984036
+01/07/24,Audit & Accountability (AU),Continuous Monitoring,Synchronization With Authoritative Time Source,1.038432418,6.33884808,6.582465339,1,16.98984036,16.98984036
+01/07/24,Audit & Accountability (AU),Continuous Monitoring,Protection of Event Logs ,1.58760488,7.237238276,11.48987481,1,16.98984036,16.98984036
+01/07/24,Audit & Accountability (AU),Continuous Monitoring,Access by Subset of Privileged Users ,3.643032597,0.911015834,3.318860381,1,16.98984036,16.98984036
+01/07/24,Configuration Management (CM),Asset Management,Asset Inventories ,1.82332235,25.63815367,46.7466186,4,112.8319769,52.92688454
+01/07/24,Configuration Management (CM),Configuration Management,System Hardening Through Baseline Configurations ,3.175696637,3.601126505,11.43608533,4,26.47050487,52.92688454
+01/07/24,Configuration Management (CM),Change Management,Configuration Change Control ,3.968920754,36.31269298,144.1222008,4,77.05248655,52.92688454
+01/07/24,Configuration Management (CM),Change Management,Security Impact Analysis for Changes ,2.328893963,27.56422841,64.19416514,4,77.05248655,52.92688454
+01/07/24,Configuration Management (CM),Change Management,Access Restriction For Change,2.526850675,4.908846755,12.40392274,4,77.05248655,52.92688454
+01/07/24,Configuration Management (CM),Configuration Management,Least Functionality,4,8.851515068,35.40606027,4,26.47050487,52.92688454
+01/07/24,Configuration Management (CM),Configuration Management,Periodic Review,2.340376765,14.2162602,33.27140506,4,26.47050487,52.92688454
+01/07/24,Configuration Management (CM),Configuration Management,Unauthorized or Authorized Software (Blacklisting or Whitelisting),2.285701865,19.09291251,43.64070574,4,26.47050487,52.92688454
+01/07/24,Configuration Management (CM),Configuration Management,User-Installed Software,2.550796665,1.449470569,3.697304694,4,26.47050487,52.92688454
+01/07/24,Identification & Authentication (IA),Identification & Authentication,Identification & Authentication for Organizational Users ,2.767820886,0.5236723,1.449431128,1,12.01781257,12.01781257
+01/07/24,Identification & Authentication (IA),Identification & Authentication,Identification & Authentication for Organizational Users ,1.344167163,1.554436007,2.089421838,1,12.01781257,12.01781257
+01/07/24,Identification & Authentication (IA),Identification & Authentication,Multi-Factor Authentication (MFA),2.140866532,0.788087456,1.687190059,1,12.01781257,12.01781257
+01/07/24,Identification & Authentication (IA),Identification & Authentication,Network Access to Privileged Accounts - Replay Resistant,2.770905676,9.662879794,26.77492847,1,12.01781257,12.01781257
+01/07/24,Identification & Authentication (IA),Identification & Authentication,Identifier Management (User Names),2.856742694,10.28057496,29.36895739,1,12.01781257,12.01781257
+01/07/24,Identification & Authentication (IA),Identification & Authentication,Disable Inactive Accounts,2.657140996,7.836075104,20.82155641,1,12.01781257,12.01781257
+01/07/24,Identification & Authentication (IA),Identification & Authentication,Password-Based Authentication ,3.11803048,10.77341035,33.59182184,1,12.01781257,12.01781257
+01/07/24,Identification & Authentication (IA),Identification & Authentication,Authenticator Management,1,6.00264839,6.00264839,1,12.01781257,12.01781257
+01/07/24,Identification & Authentication (IA),Identification & Authentication,Authenticator Management,2.28042495,4.424781093,10.0903812,1,12.01781257,12.01781257
+01/07/24,Identification & Authentication (IA),Identification & Authentication,Protection of Authenticators,2.515982841,8.552204918,21.51720082,1,12.01781257,12.01781257
+01/07/24,Identification & Authentication (IA),Identification & Authentication,Authenticator Feedback,1,3.421393547,3.421393547,1,12.01781257,12.01781257
+01/07/24,Incident Response (IR),Incident Response,Incident Handling ,2.567232433,7.363687935,18.90429849,1,49.1373145,49.1373145
+01/07/24,Incident Response (IR),Incident Response,Incident Handling ,4,16.28528703,65.14114814,1,49.1373145,49.1373145
+01/07/24,Incident Response (IR),Incident Response,Incident Response Testing,2.61685676,34.42211731,90.07775039,1,49.1373145,49.1373145
+01/07/24,Maintenance (MA),Maintenance,Controlled Maintenance ,3.198197459,8.821150047,28.21177967,1,41.52149955,37.98867183
+01/07/24,Maintenance (MA),Maintenance,Maintenance Tools,3.835354082,11.40915491,43.75814887,1,41.52149955,37.98867183
+01/07/24,Maintenance (MA),Data Classification & Handling ,Digital Media Sanitization,2.062957381,10.82249283,22.32634147,1,20.32453322,37.98867183
+01/07/24,Maintenance (MA),Maintenance,Inspect Media ,1,26.60662812,26.60662812,1,41.52149955,37.98867183
+01/07/24,Maintenance (MA),Maintenance,Remote Maintenance,3.809223592,24.70686632,94.11397806,1,41.52149955,37.98867183
+01/07/24,Maintenance (MA),Maintenance,Authorized Maintenance Personnel,3.683085653,20.12844213,74.13477641,1,41.52149955,37.98867183
+01/07/24,Media Protection (MP),Data Classification & Handling ,Data Protection ,2.655596981,2.705351591,7.184323518,2,20.32453322,43.42960774
+01/07/24,Media Protection (MP),Data Classification & Handling ,Media Access ,3.432726556,11.68198071,40.1010454,2,20.32453322,43.42960774
+01/07/24,Media Protection (MP),Data Classification & Handling ,Digital Media Sanitization,2.428160674,5.294542766,12.85600053,2,20.32453322,43.42960774
+01/07/24,Media Protection (MP),Data Classification & Handling ,Media Marking ,3.011061904,5.742391531,17.29069638,2,20.32453322,43.42960774
+01/07/24,Media Protection (MP),Data Classification & Handling ,Media Transportation ,1.296647108,8.683835894,11.2598707,2,20.32453322,43.42960774
+01/07/24,Media Protection (MP),Cryptographic Protections ,Encrypting Data At Rest ,1,28.2189302,28.2189302,2,71.72424143,43.42960774
+01/07/24,Media Protection (MP),Data Classification & Handling ,Media Use,3.197417981,9.554198405,30.54876577,2,20.32453322,43.42960774
+01/07/24,Media Protection (MP),Data Classification & Handling ,Prohibit Use Without Owner,2.0657409,12.39226444,25.59920749,2,20.32453322,43.42960774
+01/07/24,Media Protection (MP),Business Continuity & Disaster Recovery,Data Backups,1.768704957,100,176.8704957,2,176.8704957,43.42960774
+01/07/24,Personnel Security (PS),Human Resources Security,Personnel Screening ,2.853281197,13.59420238,38.78808205,1,26.55410998,26.55410998
+01/07/24,Personnel Security (PS),Human Resources Security,Personnel Transfer,2.962650042,8.617706518,25.53124858,1,26.55410998,26.55410998
+01/07/24,Physical Protection (PE),Physical & Environmental Security ,Physical Access Authorizations ,2.53316643,19.01975773,48.18021178,1,22.65901395,22.65901395
+01/07/24,Physical Protection (PE),Physical & Environmental Security ,Physical & Environmental Protections,2.288304883,2.006039196,4.590429289,1,22.65901395,22.65901395
+01/07/24,Physical Protection (PE),Physical & Environmental Security ,Visitor Control,2.295658085,1.463997011,3.360836575,1,22.65901395,22.65901395
+01/07/24,Physical Protection (PE),Physical & Environmental Security ,Physical Access Logs ,2.422982797,8.42835825,20.42176705,1,22.65901395,22.65901395
+01/07/24,Physical Protection (PE),Physical & Environmental Security ,Physical Access Control ,2.156724746,14.66242132,31.62280691,1,22.65901395,22.65901395
+01/07/24,Physical Protection (PE),Physical & Environmental Security ,Alternate Work Site,2.751136245,19.68303703,54.15071658,1,22.65901395,22.65901395
+01/07/24,Risk Management (RM),Risk Management,Risk Assessment ,1.279337616,4.458717756,5.704205346,3,108.4041529,96.20030201
+01/07/24,Risk Management (RM),Vulnerability & Patch Management ,Vulnerability Scanning ,3.44287879,41.91827924,144.3195545,3,71.79260028,96.20030201
+01/07/24,Risk Management (RM),Risk Management,Risk Remediation ,4,58.88922864,235.5569146,3,108.4041529,96.20030201
+01/07/24,Security Assessment (CA),Compliance,Security & Privacy Controls Oversight ,1.616010366,39.2819986,63.48011692,2,75.6620205,58.71205999
+01/07/24,Security Assessment (CA),Information Assurance ,Plan of Action & Milestones (POA&M),1.627465967,21.1188567,34.37022055,2,41.76209948,58.71205999
+01/07/24,Security Assessment (CA),Compliance,Security & Privacy Controls Oversight ,2.114412121,18.59580115,39.31918736,2,75.6620205,58.71205999
+01/07/24,Security Assessment (CA),Information Assurance ,System Security & Privacy Plan (SSPP),1.032798341,34.16137152,35.28180781,2,41.76209948,58.71205999
+01/07/24,System & Communications Protection (SC),Network Security,Boundary Protection ,2.121546157,3.330985472,7.066839426,3,11.11526857,33.55839765
+01/07/24,System & Communications Protection (SC),Secure Engineering & Architecture ,Secure Engineering Principles ,1.767480447,6.091281621,10.76622116,3,39.31436289,33.55839765
+01/07/24,System & Communications Protection (SC),Secure Engineering & Architecture ,Application Partitioning,4,22.86274293,91.45097173,3,39.31436289,33.55839765
+01/07/24,System & Communications Protection (SC),Secure Engineering & Architecture ,Information In Shared Resources ,1,9.691844526,9.691844526,3,39.31436289,33.55839765
+01/07/24,System & Communications Protection (SC),Network Security,Network Segmentation,1.096862041,4.111188237,4.509406321,3,11.11526857,33.55839765
+01/07/24,System & Communications Protection (SC),Network Security,Deny Traffic by Default & Allow Traffic by Exception,3.325951414,3.918455046,13.0325911,3,11.11526857,33.55839765
+01/07/24,System & Communications Protection (SC),Configuration Management,Split Tunneling,2.443791723,15.7110815,38.39461094,3,26.47050487,33.55839765
+01/07/24,System & Communications Protection (SC),Cryptographic Protections ,Alternate Physical Protection ,3.412843091,27.60747025,94.21996411,3,71.72424143,33.55839765
+01/07/24,System & Communications Protection (SC),Network Security,Remote Session Termination,1.813111049,6.951884758,12.60453907,3,11.11526857,33.55839765
+01/07/24,System & Communications Protection (SC),Cryptographic Protections ,Public Key Infrastructure (PKI) ,3.1714741,14.76879213,46.83884171,3,71.72424143,33.55839765
+01/07/24,System & Communications Protection (SC),Cryptographic Protections ,Use of Cryptographic Controls ,4,29.40480743,117.6192297,3,71.72424143,33.55839765
+01/07/24,System & Communications Protection (SC),Endpoint Security,Collaborative Computing Devices ,2.0186489,9.803212038,19.7892432,3,36.8854777,33.55839765
+01/07/24,System & Communications Protection (SC),Endpoint Security,Mobile Code,2.141329706,3.950298929,8.458892447,3,36.8854777,33.55839765
+01/07/24,System & Communications Protection (SC),Network Security,Electronic Messaging,1.911402187,6.191396035,11.83424792,3,11.11526857,33.55839765
+01/07/24,System & Communications Protection (SC),Network Security,Session Integrity ,1,2.856160017,2.856160017,3,11.11526857,33.55839765
+01/07/24,System & Communications Protection (SC),Endpoint Security,Endpoint Protection Measures ,2.48322669,25.84246315,64.17269423,3,36.8854777,33.55839765
+01/07/24,System & Information Integrity (SI),Vulnerability & Patch Management ,Vulnerability & Patch Management Program (VPMP),2.810213633,8.75772691,24.61108356,1,71.79260028,33.34550778
+01/07/24,System & Information Integrity (SI),Endpoint Security,Malicious Code Protection (Anti-Malware) ,3.814282573,9.464733778,36.10116911,1,36.8854777,33.34550778
+01/07/24,System & Information Integrity (SI),Continuous Monitoring,Reviews & Updates ,2.147684314,7.874814519,16.91261562,1,16.98984036,33.34550778
+01/07/24,System & Information Integrity (SI),Endpoint Security,Automatic Updates,1.747303288,22.74430324,39.74119584,1,36.8854777,33.34550778
+01/07/24,System & Information Integrity (SI),Endpoint Security,Always On Protection,1.881528368,28.19498886,53.04967137,1,36.8854777,33.34550778
+01/07/24,System & Information Integrity (SI),Continuous Monitoring,Inbound & Outbound Communications Traffic ,3.969096559,6.017225532,23.88294915,1,16.98984036,33.34550778
+01/07/24,System & Information Integrity (SI),Continuous Monitoring,Correlate Monitoring Information,2.846743667,5.290695688,15.06125444,1,16.98984036,33.34550778
+01/07/24,Non-Federal Organization (NFO) Control,Identification & Authentication,Identity & Access Management (IAM) ,2.056507231,2.618305066,5.3845633,4,12.01781257,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Security Awareness & Training ,Security & Privacy-Minded Workforce ,1.062283913,37.84663131,40.20386762,4,56.08182136,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Security Awareness & Training ,Security & Privacy Training Records ,2.71031073,5.547883592,15.03648843,4,56.08182136,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Continuous Monitoring,Continuous Monitoring,3.946371519,8.880187099,35.04451745,4,16.98984036,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Information Assurance ,Information Assurance (IA) Operations,2.297647696,3.811844588,8.758275934,4,41.76209948,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Information Assurance ,Assessor Independence,2.603872019,18.53204325,48.25506887,4,41.76209948,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Network Security,System Interconnections,2.292872855,0.737891649,1.691891733,4,11.11526857,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Network Security,Deny Traffic by Default & Allow Traffic by Exception,1.026898227,5.479571766,5.62696253,4,11.11526857,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Compliance,Security & Privacy Controls Oversight ,2.948249533,42.12220025,124.1867572,4,75.6620205,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Network Security,Internal System Connections,3.418381097,8.339716949,28.50833077,4,11.11526857,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Configuration Management,Configuration Management Program,2.445433294,8.586923325,20.99874819,4,26.47050487,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Configuration Management,Reviews & Updates,2.329740364,6.229667369,14.51350752,4,26.47050487,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Configuration Management,"Configure Systems, Components or Services for High-Risk Areas ",2.87669182,19.45491625,55.96579844,4,26.47050487,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Change Management,"Test, Validate & Document Changes ",2.80287716,31.21423185,87.48965752,4,77.05248655,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Asset Management,Component Duplication Avoidance ,2.406036752,74.36184633,178.9173352,4,112.8319769,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Configuration Management,Configuration Management Program,2.630252753,2.806126696,7.380822469,4,26.47050487,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Identification & Authentication,Identity & Access Management (IAM) ,1,5.405375647,5.405375647,4,12.01781257,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Incident Response,Incident Response Operations,1.605122552,36.93549,59.28598796,4,49.1373145,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Incident Response,Incident Response Plan (IRP) ,2.458714295,4.993417719,12.27738753,4,49.1373145,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Maintenance,Maintenance Operations ,3.30554096,1.511086253,4.994957504,4,41.52149955,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Maintenance,Remote Maintenance Notifications,2.762378413,6.816672228,18.83022821,4,41.52149955,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Data Classification & Handling ,Data Protection ,2.230621597,8.917830255,19.89230476,4,20.32453322,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Physical & Environmental Security ,Physical & Environmental Protections,1.161240186,10.29052852,11.94977526,4,22.65901395,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Physical & Environmental Security ,Delivery & Removal ,1.02605579,1.086260542,1.114563918,4,22.65901395,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Physical & Environmental Security ,Intrusion Alarms / Surveillance Equipment ,1,7.392210835,7.392210835,4,22.65901395,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Physical & Environmental Security ,Physical Access Logs ,2.743518041,15.96738956,43.80682134,4,22.65901395,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Project & Resource Management,Security Portfolio Management,3.256074354,28.50254493,92.80640557,4,80.38543609,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Information Assurance ,Plan / Coordinate with Other Organizational Entities,3.671145437,22.37588394,82.14512424,4,41.76209948,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Human Resources Security,Rules of Behavior,2.687524523,5.353192571,14.38683631,4,26.55410998,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Human Resources Security,Social Media & Social Networking Restrictions,2.000048388,2.56096971,5.122063341,4,26.55410998,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Secure Engineering & Architecture ,Alignment With Enterprise Architecture ,3.443022683,21.46812448,73.91523954,4,39.31436289,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Human Resources Security,Human Resources Security Management,1.215478614,23.92266831,29.07749174,4,26.55410998,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Human Resources Security,Access Agreements ,3.359961719,18.63210064,62.60314491,4,26.55410998,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Human Resources Security,Third-Party Personnel Security,2.45358869,14.02557939,34.41300297,4,26.55410998,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Human Resources Security,Personnel Sanctions,2.255124183,11.56795828,26.08718246,4,26.55410998,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Risk Management,Risk Management Program ,2.290494814,36.6520536,83.95133871,4,108.4041529,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Vulnerability & Patch Management ,Update Tool Capability,4,7.325770013,29.30308005,4,71.79260028,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Vulnerability & Patch Management ,Update Tool Capability,2.117629625,41.99822384,88.93668301,4,71.79260028,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Technology Development & Acquisition,Secure Coding ,1.595104242,13.61300925,21.7141688,4,29.98270926,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Project & Resource Management,Allocation of Resources ,2.550016774,25.67462972,65.47073644,4,80.38543609,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Project & Resource Management,Secure Development Life Cycle (SDLC) Management,1.808687387,45.82282536,82.87916627,4,80.38543609,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Technology Development & Acquisition,Security Requirements ,2.876334901,0.5182356,1.490619144,4,29.98270926,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Technology Development & Acquisition,Functional Properties ,1.939335141,14.8324153,28.76502421,4,29.98270926,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Technology Development & Acquisition,Functional Properties ,2.645637971,16.61140758,43.94777064,4,29.98270926,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Technology Development & Acquisition,Use of Approved PIV Products,3.510987144,14.61403298,51.30968192,4,29.98270926,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Technology Development & Acquisition,"Ports, Protocols & Services In Use",3.478000045,14.42342339,50.16466719,4,29.98270926,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Technology Development & Acquisition,Documentation Requirements,3.365080648,12.97727693,43.66958344,4,29.98270926,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Third-Party Management ,Third-Party Services ,4,72.21275925,288.851037,4,168.2533707,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Third-Party Management ,"Identification of Functions, Ports, Protocols & Services",1.715021108,27.78724075,47.65570443,4,168.2533707,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Technology Development & Acquisition,Developer Configuration Management ,2.388917944,11.1974935,26.74989315,4,29.98270926,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Technology Development & Acquisition,Security & Privacy Testing Throughout Development ,1.676396158,1.212705487,2.03297482,4,29.98270926,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Network Security,Network Security Management ,3.029532064,1.800422147,5.454436623,4,11.11526857,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Network Security,Network Access Points,1.969889982,5.777822203,11.38167407,4,11.11526857,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Network Security,External Telecommunications Services ,1.408993628,7.873452382,11.09364423,4,11.11526857,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Network Security,Domain Name Service (DNS) Resolution ,2.869947492,2.478797746,7.114019374,4,11.11526857,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Network Security,Secure Name / Address Resolution Service (Recursive or Caching Resolver),3.866056967,7.684473228,29.70861127,4,11.11526857,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Network Security,Architecture & Provisioning for Name / Address Resolution Service,3.681846341,4.14625907,15.26588879,4,11.11526857,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Secure Engineering & Architecture ,Process Isolation ,3.806447914,16.48505505,62.74950341,4,39.31436289,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Secure Engineering & Architecture ,Secure Engineering Principles ,3.557806276,5.817917821,20.69902454,4,39.31436289,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Continuous Monitoring,System Generated Alerts ,1.362818979,12.43517627,16.94689423,4,16.98984036,40.57849644
+01/07/24,Non-Federal Organization (NFO) Control,Secure Engineering & Architecture ,Memory Protection ,3.337112904,10.86913419,36.27152795,4,39.31436289,40.57849644
